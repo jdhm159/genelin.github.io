@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2020-10-22T14:24:20.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" version="13.8.1" etag="AHE4dmlRWw-b3nshM2bx" type="github"><diagram id="Ku9GpB0aJtn59rkaL1Aa">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-06T13:55:50.528Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="4v73_iDDQKZbCq-K4A2G" version="13.10.9" type="github">
+  <diagram id="Ku9GpB0aJtn59rkaL1Aa" name="第 1 页">
+    <mxGraphModel dx="782" dy="403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pNbgt7cEEmttQMpLTE3j-1" value="注册中心" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="150" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pNbgt7cEEmttQMpLTE3j-3" value="服务消费者" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="170" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pNbgt7cEEmttQMpLTE3j-4" value="服务提供方" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="490" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
