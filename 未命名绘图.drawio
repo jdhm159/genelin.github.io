@@ -1,17 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2020-12-06T13:55:50.528Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="4v73_iDDQKZbCq-K4A2G" version="13.10.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-08T02:15:09.778Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="5Qd_YTgGCghTQAd3Dau4" version="13.10.9" type="github">
   <diagram id="Ku9GpB0aJtn59rkaL1Aa" name="第 1 页">
-    <mxGraphModel dx="782" dy="403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pNbgt7cEEmttQMpLTE3j-1" value="注册中心" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="150" width="110" height="60" as="geometry" />
+        <mxCell id="pNbgt7cEEmttQMpLTE3j-1" value="注册中心&lt;br&gt;registry" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="359" y="140" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="pNbgt7cEEmttQMpLTE3j-3" value="服务消费者" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="170" y="270" width="100" height="50" as="geometry" />
+        <mxCell id="kxH4WuJwTNe_kClUog-D-1" value="服务消费方&lt;br&gt;consumer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pNbgt7cEEmttQMpLTE3j-4" value="服务提供方" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="490" y="270" width="100" height="50" as="geometry" />
+        <mxCell id="kxH4WuJwTNe_kClUog-D-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="300" as="sourcePoint" />
+            <mxPoint x="490" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kxH4WuJwTNe_kClUog-D-2" value="服务提供方&lt;br&gt;provider" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kxH4WuJwTNe_kClUog-D-5" value="regist&lt;br&gt;服务注册" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="230" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kxH4WuJwTNe_kClUog-D-7" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="300" as="sourcePoint" />
+            <mxPoint x="350" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kxH4WuJwTNe_kClUog-D-8" value="subscribe&lt;br&gt;订阅服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="230" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kxH4WuJwTNe_kClUog-D-9" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="350" as="sourcePoint" />
+            <mxPoint x="570" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kxH4WuJwTNe_kClUog-D-10" value="RPC invocation&lt;br&gt;远程调用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="320" width="96" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kxH4WuJwTNe_kClUog-D-11" value="请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="330" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kxH4WuJwTNe_kClUog-D-12" value="响应" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="350" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
